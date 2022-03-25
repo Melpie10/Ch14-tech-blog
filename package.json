@@ -1,0 +1,27 @@
+{
+  "name": "ch14-tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melpie10/Ch14-tech-blog.git"
+  },
+  "author": "Melany Pietrowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melpie10/Ch14-tech-blog/issues"
+  },
+  "homepage": "https://github.com/Melpie10/Ch14-tech-blog#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0"
+  }
+}
